@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AnimalsTests" verbose="1">
+    <groups>
+        <run>
+            <include name="functest"/>
+        </run>
+    </groups>
+    <test name="tests.AnimalsTests.testAnimalName">
+        <parameter name="animalName" value="Simia"/>
+        <classes>
+            <class name="tests.AnimalsTests"/>
+        </classes>
+    </test>
+</suite>
